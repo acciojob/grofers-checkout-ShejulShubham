@@ -16,6 +16,8 @@ const table = document.getElementById("table");
           total += parseInt(price.textContent, 10);
         });
 
+		td.setAttribute("id", "ans");
+
         td.innerText = total;
 
         tr.appendChild(td);
